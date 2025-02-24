@@ -29,7 +29,8 @@ The main objectives of this project are to understand cycling traffic behavior i
 
 ## How to Use
 
-1. Download and extract the zip file containing the full project materials.
+1. Download the two files containing the full project materials.
 2. Open the report to review key findings and insights.
+   
 
 
