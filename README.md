@@ -27,17 +27,9 @@ The main objectives of this project are to understand cycling traffic behavior i
 - **Python**: Data preprocessing and exploratory analysis.
 - **Power BI**: Visualization and dashboard creation for traffic insights.
 
-## Key Insights & Outcomes
-
-- Identified peak cycling hours and how traffic fluctuates across different seasons.
-- Found correlations between weather conditions and cycling frequency.
-- Developed an interactive **Power BI dashboard** to explore trends and patterns in urban cycling behavior.
-- Analyzed the impact of the **2024 Summer Olympics preparations** on cycling trends.
-
 ## How to Use
 
-1. Download and extract the zip file containing the project materials.
+1. Download and extract the zip file containing the full project materials.
 2. Open the report to review key findings and insights.
-3. Load the Power BI dashboard to explore interactive visualizations.
 
 
