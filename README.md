@@ -30,7 +30,7 @@ The main objectives of this project are to understand cycling traffic behavior i
 ## How to Use
 
 1. Download the two files containing the project materials.
-2. Open the Paris Cycling Trafic Analysis.pptx to review key findings and insights.
+2. Open the Paris Cycling Trafic Analysis.pptx to review our key findings and insights of this analysis.
    
 
 
