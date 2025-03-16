@@ -1,36 +1,32 @@
 # Paris Cycling Traffic Analysis
 
 ## Introduction
-
-In 2021, Paris introduced the **Plan Vélo: Act 2** as part of its vision to become one of the most bike-friendly cities in Europe. Since then, the city has made significant investments in upgrading its cycling infrastructure to encourage more residents and tourists to use bicycles as a mode of transportation.
-
-As part of this initiative, the city installed cyclist counting meters (hereon referred to as counters) on various streets and cycling paths. Our project aims to analyze the data collected by these counters and generate meaningful visualizations of traffic patterns. The findings will present actionable insights that city planners can use to further improve the cycling infrastructure in Paris.
+In 2021, Paris launched **Plan Vélo: Act 2** to enhance its cycling infrastructure. This project analyzes data from cyclist counting meters to provide insights on traffic patterns, supporting urban mobility goals.
 
 ## Data Sources
-
-The two datasets used in this project were obtained from [opendata.paris.fr](https://opendata.paris.fr). Both datasets are publicly available:
-
-- **Cycling Traffic Data**: Includes hourly counts of cyclists recorded by different bicycle counters across Paris. The dataset is 80MB in size and is updated daily. 
-- **Street Address Data**: Contains detailed information about street addresses in Paris, used to classify counters by arrondissement.
+- **Cycling Traffic Data**: Hourly cyclist counts across various streets.
+- **Street Address Data**: Information about streets and arrondissements.
 
 ## Objectives
-
-The main objectives of this project are to understand cycling traffic behavior in Paris and provide business insights that can support urban mobility decisions. Specifically, the analysis focuses on:
-
-1. Identifying areas with the highest and lowest cycling traffic volumes and exploring cycling patterns in Paris.
-2. Evaluating whether cycling-friendly initiatives for the **2024 Summer Olympic and Paralympic Games** have impacted cycling as a means of transport in Paris.
-3. Using **unsupervised machine learning models** to analyze the distribution of cycling traffic patterns.
-4. Applying a **supervised machine learning model** to predict afternoon cyclist counts based on morning cyclist counts.
+- Analyze traffic volumes across Paris.
+- Assess the impact of Olympic initiatives on cycling.
+- Apply clustering models to uncover traffic patterns.
+- Use linear regression to predict afternoon cyclist counts.
 
 ## Tools & Technologies
+- **Python**: Data preprocessing and machine learning (Pandas, NumPy, Scikit-Learn).
+- **Power BI**: Interactive visualizations and dashboards.
 
-- **Python**: Data preprocessing and exploratory analysis.
-- **Power BI**: Visualization and dashboard creation for traffic insights.
+## Key Visualizations
+- **Heatmap**: Cyclist concentration across arrondissements.
+- **Traffic Pattern Visualization**: Daily cycling patterns and peak hours.
 
-## How to Use
+## Future Work
+- Integrate external factors like weather for better predictions.
+- Explore advanced machine learning models for traffic forecasting.
 
-1. Download the two files containing the project materials.
-2. Open the Paris Cycling Trafic Analysis.pptx to review our key findings and insights of this analysis.
-   
+## Conclusion
+This co-project, developed in collaboration with my colleages in data analyst course, provides valuable insights to improve Paris’s cycling infrastructure, contributing to a more sustainable and bike-friendly city.
+
 
 
