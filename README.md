@@ -1,56 +1,73 @@
-# 🚴 Paris Cycling Traffic Analysis – Power BI & Python
+# 🚴 Analyse du trafic cycliste à Paris — Python & Power BI
 
-This project explores cyclist traffic patterns in Paris using data from bike counters and geographic mapping. It supports urban planning efforts, especially in the context of the **Plan Vélo: Act 2** launched in 2021. The analysis provides valuable insights into traffic distribution and prepares the ground for smarter infrastructure decisions.
+This project explores cyclist traffic patterns in Paris using data from 
+bike counters installed across the city as part of the Plan Vélo: Act 2 
+initiative launched in 2021. The analysis supports urban planning decisions 
+by visualising traffic distribution by arrondissement and time of day.
 
 ---
 
 ## 🗃️ Data Sources
 
-* **Cycling Traffic Data**: Hourly cyclist counts across various streets.
-* **Street Address Data**: Information about streets and arrondissements.
+- **Cycling Traffic Data**: Hourly cyclist counts from 101 counters across 
+  Paris (opendata.paris.fr), 945,000+ rows covering 2022–2024
+- **Street Address Data**: Arrondissement mapping for counter locations
 
 ---
 
-## 🎯 Objectives
+## 👤 My Contribution
 
-* Analyze traffic volumes across Paris
-* Assess the impact of Olympic initiatives on cycling
-* Apply clustering models to uncover traffic patterns *(team)*
-* Use linear regression to predict afternoon cyclist counts *(team)*
+This was a team project (3 members) completed as part of the 
+DataScientest Data Analyst Bootcamp (September 2024 cohort).
+
+**My individual work:**
+- Loaded and explored the raw dataset (945,000 rows, 16 columns)
+- Cleaned and structured the data using Python (Pandas, NumPy):
+  - Renamed French columns to English
+  - Converted datetime columns to correct format
+  - Extracted date, time, day of week, month, year into separate columns
+  - Separated geo-coordinates into latitude and longitude
+  - Removed irrelevant columns
+  - Identified and handled outliers (2 extreme values dropped)
+  - Excluded incomplete data periods (2022, October 2024, Olympic months)
+- Performed EDA and data visualisation:
+  - Distribution of hourly counts (histogram, boxplots)
+  - Missing readings analysis by month
+  - Weekday vs weekend traffic patterns
+  - Olympic and Paralympic period comparison
+- Built an interactive Power BI dashboard visualising hourly cyclist 
+  counts by arrondissement and time of day
+
+**Team contribution:**
+- K-Means clustering (4 clusters, 3 features) to identify main cycling routes
+- HDBSCAN clustering as alternative method
+- Linear regression to predict afternoon counts from morning counts
+- Interactive Folium and GeoPandas maps
 
 ---
 
-## 🔍 Key Insights
+## 🔍 Key Insights (from full team analysis)
 
-* Central Paris arrondissements see the highest cyclist volumes during commute hours
-* Afternoon usage is generally higher on weekdays than weekends
-* There’s potential to integrate external factors like weather for enhanced prediction
-
----
-
-## 💡 What I Learned
-
-* Cleaned and structured raw bike traffic data using Python (Pandas, NumPy)
-* Designed an interactive Power BI dashboard to visualize spatial and temporal traffic patterns
-* Collaborated on a data science team project, with clear role attribution
+- Central arrondissements (2nd, 10th, 11th) see the highest cyclist volumes
+- 59% of all cycling traffic occurs during weekday morning and afternoon 
+  commute hours
+- Cycling traffic follows a seasonal pattern: peaks in June, drops in 
+  winter months
+- The Olympic period (July–August 2024) showed decreased cycling, 
+  likely due to road closures and Parisians leaving the city
 
 ---
 
 ## 🛠️ Tools Used
 
-Python • Pandas • NumPy • Scikit-learn *(team)* • Power BI
+Python • Pandas • NumPy • Power BI • Scikit-learn (team)
 
 ---
 
-## 👥 Target Users
+## ✅ What I Learned
 
-* **Urban Planners & City Officials**: Inform decisions for expanding bike-friendly infrastructure
-* **Environmental Analysts**: Measure progress toward sustainable transport goals
-* **Researchers**: Analyze traffic behavior and infrastructure effectiveness
-
----
-
-## ✅ Conclusion
-
-This project demonstrates my ability to clean and visualize real-world public data. It showcases collaborative teamwork and supports Paris’s vision for sustainable urban mobility with data-backed insights.
+- Cleaning and structuring large real-world civic datasets with Python
+- Handling datetime data, outlier detection, and missing value analysis
+- Building interactive Power BI dashboards from Python-cleaned data
+- Collaborating on a data science team project with clear role attribution
 
