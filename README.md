@@ -1,4 +1,4 @@
-# 🚴 Analyse du trafic cycliste à Paris — Python & Power BI
+# 🚴 Paris Cycling Traffic Analysis — Python & Power BI
 
 This project explores cyclist traffic patterns in Paris using data from 
 bike counters installed across the city as part of the Plan Vélo: Act 2 
