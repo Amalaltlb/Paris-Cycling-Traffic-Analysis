@@ -21,6 +21,7 @@ This was a team project (3 members) completed as part of the
 DataScientest Data Analyst Bootcamp (September 2024 cohort).
 
 **My individual work:**
+
 - Loaded and explored the raw dataset (945,000 rows, 16 columns)
 - Cleaned and structured the data using Python (Pandas, NumPy):
   - Renamed French columns to English
@@ -30,14 +31,14 @@ DataScientest Data Analyst Bootcamp (September 2024 cohort).
   - Removed irrelevant columns
   - Identified and handled outliers (2 extreme values dropped)
   - Excluded incomplete data periods (2022, October 2024, Olympic months)
-- Performed EDA and data visualisation:
-  - Distribution of hourly counts (histogram, boxplots)
+- Performed EDA and built data visualisations in Python (Matplotlib):
+  - Distribution of hourly counts (histogram and boxplots)
   - Missing readings analysis by month
   - Weekday vs weekend traffic patterns
-  - Olympic and Paralympic period comparison
-- Built data visualisations in Python (Matplotlib) to explore traffic patterns, including distribution of hourly counts (histogram and boxplots), missing readings analysis by month and weekday vs weekend traffic comparisons
 
 **Team contribution:**
+
+- Built an interactive Power BI dashboard visualising hourly cyclist counts by arrondissement and time of day
 - K-Means clustering (4 clusters, 3 features) to identify main cycling routes
 - HDBSCAN clustering as alternative method
 - Linear regression to predict afternoon counts from morning counts
@@ -59,7 +60,7 @@ DataScientest Data Analyst Bootcamp (September 2024 cohort).
 
 ## 🛠️ Tools Used
 
-Python • Pandas • NumPy • Power BI • Scikit-learn (team)
+Python • Pandas • NumPy • Matplotlib • Power BI • Scikit-learn (team)
 
 ---
 
