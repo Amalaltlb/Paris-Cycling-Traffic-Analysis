@@ -35,8 +35,7 @@ DataScientest Data Analyst Bootcamp (September 2024 cohort).
   - Missing readings analysis by month
   - Weekday vs weekend traffic patterns
   - Olympic and Paralympic period comparison
-- Built an interactive Power BI dashboard visualising hourly cyclist 
-  counts by arrondissement and time of day
+- Built data visualisations in Python (Matplotlib) to explore traffic patterns, including distribution of hourly counts (histogram and boxplots), missing readings analysis by month and weekday vs weekend traffic comparisons
 
 **Team contribution:**
 - K-Means clustering (4 clusters, 3 features) to identify main cycling routes
@@ -68,6 +67,6 @@ Python • Pandas • NumPy • Power BI • Scikit-learn (team)
 
 - Cleaning and structuring large real-world civic datasets with Python
 - Handling datetime data, outlier detection, and missing value analysis
-- Building interactive Power BI dashboards from Python-cleaned data
+- Building exploratory data visualisations in Python to surface patterns and communicate findings to the team
 - Collaborating on a data science team project with clear role attribution
 
